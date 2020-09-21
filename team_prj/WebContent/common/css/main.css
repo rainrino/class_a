@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* WEB Page에서 사용할 공통 CSS정의 */
+body, div, form, dl, dt, dd, ul, ol, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px
+}
+
+fieldset, img {
+	border: 0px none
+}
+
+dl, ul, ol, li {
+	list-style: none
+}
+
+input, select, textarea {
+	vertical-align: middle
+}
+
+body, th, td, input, select, textarea {
+	font-size: 13px;
+	line-height: 1.7;
+	font-family: 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+	color: #333;
+}
+
+a {
+	color: #333;
+	text-decoration: none
+}
+
+a:hover {
+	color: #118eff;
+	text-decoration: underline
+}
+
+address {
+	font-style: normal;
+	font-weight: normal
+}
+
+.inputBox {
+	border: 1px solid #CBCBCB;
+	height: 30px;
+	background-color: #FFFFFF
+}
+
+.btn {
+	border: 1px solid #CBCBCB;
+	height: 34px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+.btnLoc {
+	border: 1px solid #CBCBCB;
+	height: 34px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.dc_table {
+	border-top: 2px solid #313A76;
+	border-spacing: 0px
+}
+
+.dc_th {
+	height: 30px;
+	border-bottom: 1px solid #313A76;
+	background-color: #FDFDFD;
+	font-weight: normal;
+	text-align: center;
+}
+
+.dc_td {
+	height: 25px;
+	border-bottom: 1px solid #DFDFDF
+}
+
+.dc_td_center {
+	height: 25px;
+	border-bottom: 1px solid #DFDFDF;
+	text-align: center;
+}
